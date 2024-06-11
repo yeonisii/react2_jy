@@ -28,7 +28,7 @@ const LoginForm = styled.form`
 `;
 
 const LoginInput = styled.input`
-  width: 300px;
+  width: 100px;
   height: 50px;
   margin-bottom: 40px;
   border-radius: 11px;
@@ -39,14 +39,14 @@ const LoginInput = styled.input`
 `;
 
 const LoginButton = styled.button`
-  width: 300px;
+  width: 100px;
   height: 50px;
   background-color: #898989;
   color: #fff;
 `;
 
 const JoinButton = styled.button`
-  width: 300px;
+  width: 100px;
   height: 50px;
   background-color: #454545;
   color: #fff;

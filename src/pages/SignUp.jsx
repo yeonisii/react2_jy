@@ -49,10 +49,10 @@ function SignUp() {
   };
 
   return (
-    <div>
-      <h2>회원가입</h2>
-      <form>
-        <input
+    <JoinBox>
+      <JoinTitle>회원가입</JoinTitle>
+      <JoinForm>
+        <JoinInput
           type="text"
           placeholder="아이디"
           value={userid}
@@ -61,7 +61,7 @@ function SignUp() {
           maxLength={10}
           required
         />
-        <input
+        <JoinInput
           type="password"
           placeholder="비밀번호"
           value={password}
@@ -70,7 +70,7 @@ function SignUp() {
           maxLength={15}
           required
         />
-        <input
+        <JoinInput
           type="text"
           placeholder="닉네임"
           value={nickname}
@@ -79,9 +79,9 @@ function SignUp() {
           maxLength={10}
           required
         />
-      </form>
+      </JoinForm>
       <button onClick={() => navigate("/login")}>로그인</button>
-    </div>
+    </JoinBox>
   );
 }
 
